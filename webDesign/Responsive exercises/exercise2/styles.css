@@ -1,0 +1,37 @@
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wrapper {
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+    margin: 2% auto;
+}
+
+.text-area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-area h1 {
+    font-family: Audiowide;
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+}
+
+.text-area h2 {
+    margin: 0;
+    font-size: 30px;
+}

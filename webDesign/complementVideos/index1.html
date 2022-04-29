@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+
+<html>
+
+
+  <title> IDs vs Classes - web- decode </title>
+
+  <link rel = "stylesheet" href = "http://youtube.local/assets/dcode.css">
+  <link rel = "shortcut Icon" href = "http://youtube.local/assets/favicon.ico">
+
+  <style>
+    .box {
+      margin: 5px;
+      width: 50px;
+      height: 50px;
+      background: red;
+      float: left;
+    }
+  </style>
+
+  <body>
+    <h2 id = "title"> IDs vs Classes </h2>
+    <h2 id = "title"> Title #2 </h2>
+    <div class = "box"> </div>
+    <div class = "box"> </div>
+    <div class = "box"> </div>
+  </body>
+
+  <script>
+    let boxes = document.getElementByClassName ("box");
+    console.log(boxes);
+  </script>
+
+</html>
